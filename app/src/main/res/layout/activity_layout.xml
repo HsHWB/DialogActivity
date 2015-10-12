@@ -8,8 +8,77 @@
         android:onClick="tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/title_function_bg"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/activity_tv_groupchat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@mipmap/mm_title_btn_compose_normal"
+            android:text="@string/group_chat"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/activity_dialog_textSize"
+            android:background="@color/colorBlack"/>
+
+
+
+        <Button
+            android:id="@+id/activity_tv_addcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@mipmap/mm_title_btn_keyboard_normal"
+            android:text="@string/add_contacts"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/activity_dialog_textSize"
+            android:background="@color/colorBlack"/>
+
+        <Button
+            android:id="@+id/activity_tv_scanqrcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@mipmap/mm_title_btn_qrcode_normal"
+            android:text="@string/scan_qr_code"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/activity_dialog_textSize"
+            android:background="@color/colorBlack"/>
+
+        <Button
+            android:id="@+id/activity_tv_receivemoney"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@mipmap/mm_title_btn_receiver_normal"
+            android:text="@string/receive_money"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/activity_dialog_textSize"
+            android:background="@color/colorBlack"/>
+
+        <Button
+            android:id="@+id/activity_tv_help"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawableLeft="@mipmap/mm_title_btn_compose_normal"
+            android:text="@string/help"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/activity_dialog_textSize"
+            android:background="@color/colorBlack"/>
 
     </LinearLayout>
 
